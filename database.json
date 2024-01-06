@@ -1,1 +1,35 @@
-{"/":{"content":[{"type":"HeadingBlock","props":{"title":"Edit this page by adding /edit to the end of the URL","id":"HeadingBlock-1694032984497"}}],"root":{"props": {"title":""}}}}
+{
+  "/": {
+    "content": [
+      {
+        "type": "HeadingBlock",
+        "props": {
+          "title": "Edit this page by adding /edit to the end of the URL",
+          "id": "HeadingBlock-1694032984497"
+        }
+      }
+    ],
+    "root": { "props": { "title": "" } },
+    "zones": {}
+  },
+  "/puck": {
+    "content": [
+      {
+        "type": "HeadingBlock",
+        "props": {
+          "title": "Jon the webinar",
+          "id": "HeadingBlock-8a9b48c1-c63a-4347-a3e1-9913661338f5"
+        }
+      },
+      {
+        "type": "HeadingBlock",
+        "props": {
+          "title": "Big Heading",
+          "id": "HeadingBlock-1344fd2d-0b14-4fcb-ac59-8e23a953d704"
+        }
+      }
+    ],
+    "root": { "props": { "title": "" } },
+    "zones": {}
+  }
+}

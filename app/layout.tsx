@@ -1,5 +1,5 @@
 import "@measured/puck/puck.css";
-import "./styles.css";
+import "./globals.css";
 
 export default function RootLayout({
   children,
