@@ -11,6 +11,7 @@ export async function generateMetadata({
 
   return {
     title: "Emailers: " + path,
+    description: "Schedule courses to your customers via emails with one click!",
   };
 }
 

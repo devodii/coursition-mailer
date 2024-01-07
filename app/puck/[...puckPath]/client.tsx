@@ -2,8 +2,8 @@
 
 import type { Data } from "@measured/puck";
 import { Puck } from "@measured/puck";
-import config from "../../../puck.config";
 import { __isBrowser__ } from "lib/constant";
+import config from "../../../puck.config";
 
 function handleShedule(data: any) {
   console.log({ data });
