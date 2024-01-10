@@ -10,18 +10,12 @@ export async function generateMetadata({
   const path = `/${puckPath.join("/")}`;
 
   return {
-    title: "Emailers: " + path,
-    description: "Schedule courses to your customers via emails with one click!",
+    title: "Email: " + path,
+    description:
+      "Schedule courses to your customers via emails with one click!",
   };
 }
 
-export default async function Page({
-  params: { puckPath = [] },
-}: {
-  params: { puckPath: string[] };
-}) {
-  const path = `/${puckPath.join("/")}`;
-  const data = getPage(path)!;
-
-  return <Client data={data} />;
+export default async function Page() {
+  return <Client />;
 }

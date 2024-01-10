@@ -26,7 +26,7 @@ export const config: Config<Props> = {
       defaultProps: {
         text: "Heading",
       },
-      render: Heading,
+      render: ({ text }) => <Heading>{text}</Heading>,
     },
     Image: {
       fields: {
