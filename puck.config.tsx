@@ -1,4 +1,5 @@
 import { Image } from "@components/image";
+import { Seperator } from "@components/seperator";
 import { Heading, Text } from "@components/typography";
 import type { Config } from "@measured/puck";
 
@@ -6,6 +7,7 @@ type Props = {
   Text: { text: string };
   Heading: { text: string };
   Image: { src: string; alt: string };
+  Separator: null;
 };
 
 export const config: Config<Props> = {
@@ -38,6 +40,10 @@ export const config: Config<Props> = {
         alt: "Description of the image",
       },
       render: Image,
+    },
+
+    Separator: {
+      render: Seperator,
     },
   },
 };
